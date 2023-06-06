@@ -4,10 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="static/style.css">
     <title>Sign up</title>
 </head>
 <body>
-    
+    <div class="img-wrapper">
+        <img src="static/lena-polishko-hoHadUJ34Mc-unsplash.jpg" alt="Cover picture">
+        <div class="center">streetwear.</div>
+        <div class="credit">  Photo by <a href="https://unsplash.com/fr/@ilon_a?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lena Polishko</a> on <a href="https://unsplash.com/photos/hoHadUJ34Mc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        </div>
+    </div>
+    <div class="signup-wrapper">
+        <div class="info-paragraph">
+            Renovate your wardrobe. Find new styles. See what other people are wearing.
+        </div>
+
+        <div class="info-paragraph">
+            Let's do it!
+        </div>
+
+        <form action="" method="post">
+
+            <div class="row-1">
+                <div class="first-name">
+                    <label for="name">FIRST NAME <span aria-label="required">*</span></label>
+                    <input type="text" name="name" id="name" required autocomplete="off">
+                </div>
+                <div class="last-name">
+                    <label for="lastname">LAST NAME</label>
+                    <input type="text" name="lastname" id="lastname" autocomplete="off">
+                </div>
+            </div>
+
+            <div class="row-2">
+                <div class="email">
+                    <label for="email">EMAIL <span aria-label="required">*</span></label>
+                    <input type="email" name="email" id="email" required autocomplete="off">
+                </div>
+                <div class="phone">
+                    <label for="tel">PHONE NUMBER <span aria-label="required">*</span></label>
+                    <input type="tel" name="number" id="tel" autocomplete="off">
+                </div>
+            </div>
+            
+            <div class="row-3">
+                <div class="password">
+                    <label for="password">PASSWORD <span aria-label="required">*</span></label>
+                    <input type="password" name="password" id="password" required autocomplete="off">
+                </div>
+                
+                <div class="confirm">
+                    <label for="confirm">CONFIRM PASSWORD <span aria-label="required">*</span></label>
+                    <input type="password" name="confirm" id="confirm" required autocomplete="off">
+                </div>
+            </div>
+            <br>
+            <div class="btn">
+                <button>Create Account</button>
+            </div>
+            <div class="login">Already have an account?<button>Log in</button></div>
+        </form>
+
+    </div>
 </body>
 </html>
