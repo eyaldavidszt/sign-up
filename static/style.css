@@ -177,7 +177,6 @@ input:focus:valid {
 .message, .pwrule, .phonerule {
   font-size: 0.85rem;
   font-weight: lighter;
-  opacity: 0.6;
 }
 
 .message {

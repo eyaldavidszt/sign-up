@@ -46,7 +46,10 @@
                     <label for="tel">PHONE NUMBER <span aria-label="required">*</span></label>
                     <input type="tel" name="number" id="tel" required autocomplete="off" pattern="^[0-9]{3}[\- ]?[0-9]{3}[\- ]?[0-9]{4}$"
                     placeholder="123-123-1234">
-                    <div class="phonerule">10 digits</div>
+                    <label for="tel">
+                        <div class="phonerule">10 digits</div>
+                    </label>
+                        
                 </div>
             </div>
             
@@ -55,13 +58,17 @@
                     <label for="password">PASSWORD <span aria-label="required">*</span></label>
                     <input type="password" name="password" id="password" required autocomplete="off" 
                         minlength="8" maxlength="20">
-                        <div class="pwrule">8-20 characters</div>
+                        <label for="password">
+                            <div class="pwrule">8-20 characters</div>
+                        </label>
                 </div>
                 
                 <div class="confirm">
                     <label for="confirm">CONFIRM PASSWORD <span aria-label="required">*</span></label>
                     <input type="password" name="confirm" id="confirm" required autocomplete="off">
-                    <div class="message"></div>
+                    <label for="confirm">
+                        <div class="message"></div>
+                    </label>
                 </div>
             </div>
             <br>
